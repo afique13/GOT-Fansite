@@ -8,3 +8,21 @@ and open the template in the editor.
     Author     : Owner
 */
 
+body{
+    background-color: azure;
+}
+button.more-button{
+   background-color:black;
+   border:none;
+}
+div.navbar{
+    margin:0;
+    padding:0;
+    background-color:black;
+    display: flex;
+}
+ul.navbar li{
+    flex-wrap: wrap;
+    display:inline-block;
+    padding:5px 15px;
+}
