@@ -19,10 +19,31 @@ div.navbar{
     margin:0;
     padding:0;
     background-color:black;
-    display: flex;
+    position: -webkit-sticky;
+}
+ul.navbar a.a-nav{
+    color: activeborder;
 }
 ul.navbar li{
-    flex-wrap: wrap;
     display:inline-block;
-    padding:5px 15px;
+    padding:1px 12px;
 }
+ul.navbar a.a-nav:hover{
+    text-decoration:none;
+    color: red;
+}
+.bg{
+    background-image: url(https://s2.thingpic.com/images/Wb/R5mrZ35hXrhvLSCbEMKGRjtN.jpeg?tl_rmxId=-839369330129920137);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    position: relative;
+    display:inline-block;
+}
+.bg .text{
+    position: absolute;
+    left: 2.5%;
+    bottom: 20%;
+    text-align: center;
+}
+
