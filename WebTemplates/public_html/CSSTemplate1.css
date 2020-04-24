@@ -64,3 +64,11 @@ div.synopsis{
 .flex-column li:hover{
     color: red;
 }
+.sign-up:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.row{
+    margin-top: 30px;
+    padding: 20px;
+}
