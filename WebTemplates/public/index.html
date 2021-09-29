@@ -7,15 +7,12 @@ and open the template in the editor.
 <html>
     <head>
         <title>First Template</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" crossorigin="anonymous">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="CSSTemplate1.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     </head>
     <body>
         <div class="container-fluid navbar">
@@ -23,7 +20,7 @@ and open the template in the editor.
                 <li><a href="" class="a-nav">HOME</a></li>
             <li><a href="#ep" class="a-nav">EPISODE</a></li>
             <li><a href="#season" class="a-nav">SEASON</a></li>
-            <li><a href="" class="a-nav">LOGIN</a></li>
+            <li><a href="#login-form" class="a-nav">LOGIN</a></li>
             <li>
                 <div class="btn-group"> 
             <button style="background:none;border:none;" type="button" class="btn btn-primary dropdown-toggle more-button" data-toggle="dropdown">MORE</button>
@@ -90,7 +87,7 @@ and open the template in the editor.
             </ul>
             <h2 style="font-family: Verdana;">LOGIN</h2>
             <p class="sign-up"><a><em>Sign up here</em></a></p> 
-            <div class="row">
+            <div class="row" id="login-form">
                 <div class="col-sm-5" >
                     <p><i class="fa fa-map-marker"></i> Kuala Lumpur, Malaysia </p>
                     <p><i class="fa fa-phone"></i> Phone: +60164206969 </p>
@@ -126,7 +123,9 @@ and open the template in the editor.
             <i class="fa fa-twitter w3-hover-opacity"></i>
             <i class="fa fa-linkedin w3-hover-opacity"></i>
         </footer>
-        
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
         <!-- The core Firebase JS SDK is always required and must be listed first -->
         <script src="/__/firebase/7.16.1/firebase-app.js"></script>
 
