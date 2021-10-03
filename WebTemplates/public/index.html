@@ -18,17 +18,17 @@ and open the template in the editor.
         <div class="container-fluid navbar">
             <ul class="navbar">
                 <li><a href="" class="a-nav">HOME</a></li>
-            <li><a href="#ep" class="a-nav">EPISODE</a></li>
-            <li><a href="#season" class="a-nav">SEASON</a></li>
-            <li><a href="#login-form" class="a-nav">LOGIN</a></li>
-            <li>
-                <div class="btn-group"> 
-            <button style="background:none;border:none;" type="button" class="btn btn-primary dropdown-toggle more-button" data-toggle="dropdown">MORE</button>
-            <div class="dropdown-menu">
-                <a class="dropdown-item">Services</a>
-                <a class="dropdown-item">Terms</a>
-            </div>
-            </div>
+                <li><a href="#ep" class="a-nav">EPISODE</a></li>
+                <li><a href="#season" class="a-nav">SEASON</a></li>
+                <li><a href="#login-form" class="a-nav">LOGIN</a></li>
+                <li>
+                    <div class="btn-group"> 
+                        <button style="background:none;border:none;" type="button" class="btn btn-primary dropdown-toggle more-button" data-toggle="dropdown">MORE</button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item">Services</a>
+                            <a class="dropdown-item">Terms</a>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -41,7 +41,7 @@ and open the template in the editor.
             <p style="font-size: 16px;">Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia. 
             Don't forget to catch this show rife with political intrigue, exciting fantasy action and gripping family drama.</p>
             <p style="font-size:18px;font-family: Verdana;margin-top: 30px;">Popular Episodes:</p>
-            <div class="card-deck" id="ep">
+            <div class="card-group" id="ep">
                 <div class="card">
                     <img class="card-img-top" src="http://watchersonthewall.com/wp-content/uploads/2016/04/the-rains-of-castamere-cat-anatomy-of-a-throne.jpg" alt="Red Wedding">
                     <div class="card-body">
@@ -85,7 +85,7 @@ and open the template in the editor.
                 <li class="nav-item">Season 7</li>
                 <li class="nav-item">Season 8</li>
             </ul>
-            <h2 style="font-family: Verdana;">LOGIN</h2>
+            <h2 style="font-family: Verdana;margin-top: 50px;">LOGIN</h2>
             <p class="sign-up"><a><em>Sign up here</em></a></p> 
             <div class="row" id="login-form">
                 <div class="col-sm-5" >
@@ -93,7 +93,7 @@ and open the template in the editor.
                     <p><i class="fa fa-phone"></i> Phone: +60164206969 </p>
                     <p><i class="fa fa-envelope"></i> Email: you@gotmail.com</p> 
                 </div>
-                <div class="col-sm-5">
+                <div class="col-sm-5 login-input">
                     <form>
                         <div class="form-group">
                             <label for="email" style="float: left;">Email Address: </label>
@@ -104,12 +104,12 @@ and open the template in the editor.
                             <input type="password" class="form-control" placeholder="Enter password" id="pwd">
                         </div>
                         <div class="form-group form-check">
-                            <label class="form-check-label" style="float:left;">
+                            <label class="form-check-label" >
                             <input class="form-check-input" type="checkbox"> Remember me
                             </label>
                             <br>
                         </div>
-                        <a href="#ep" style="color: darkgrey;text-decoration-color: darkgrey;"><em>Forgot Password?</em><br></a>
+                        <a href="#ep" style="color: darkgrey;text-decoration-color: darkgrey;margin-top: 20px"><em>Forgot Password?</em><br></a>
                         <button type="submit" class="btn btn-primary" style="margin-top: 15px;">Submit</button>
                     </form>
                 </div>

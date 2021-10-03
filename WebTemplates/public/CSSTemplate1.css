@@ -23,6 +23,7 @@ div.navbar{
 }
 ul.navbar a.a-nav{
     color: activeborder;
+    text-decoration: none;
 }
 ul.navbar li{
     display:inline-block;
@@ -71,4 +72,8 @@ div.synopsis{
 .row{
     margin-top: 30px;
     padding: 20px;
+    margin-bottom: 20px;
+}
+div.form-group {
+    padding: 5px;
 }
